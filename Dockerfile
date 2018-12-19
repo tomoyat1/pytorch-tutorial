@@ -1,4 +1,4 @@
-FROM nvidia/cuda:9.2-runtime-ubuntu18.04
+FROM tomoyat1/cuda-python:10.0-runtime-python37
 
 ADD ./cifar10_tutorial.py ./cifar10_tutorial.py
 ADD Pipfile Pipfile.lock ./
